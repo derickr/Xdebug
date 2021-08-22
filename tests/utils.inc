@@ -222,7 +222,7 @@ function getTmpDir() : string
 
 function x_sort(array $array)
 {
-	sort($array);
+	asort($array);
 	return $array;
 }
 ?>
